@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>The Striped Umbrella</title>
+</head>
+<body>
+ <div class="container">
+ <header>
+<!-- the banner image (su_banner.gif) has to be here [Check point 3 part 1] -->
+  <img src="assets/images/su_banner.gif" alt="The Striped umbrella banner">
+ <nav id="main-nav">
+<!-- place your main navigation items here as explained in the instructions [Check point 3 part 2] -->
+  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Our Services</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+ </nav>
+ </header>
+ <main class="content">
+<!-- The personal information section -->   
+   <div class="wrapper">
+      <form action="example.com/" method="POST">
+        <fieldset>
+          <legend>Personal Information:</legend>
+          <div>
+            <Label for="fname">First Name:*</Label>
+            <input type="text" id="fname" name="fname" required maxlength="25">
+          </div>
+          <div>
+            <label for="lname">Last Name:*</label>
+            <input type="text" id="lname" name="lname" required maxlength="25">
+          </div>
+          <div>
+            <label for="email">Email:*</label>
+            <input type="text" name="email" id="email" required maxlength="35">
+          </div>
+          <div>
+            Please select the music genre(s) you like: <br>
+            <input type="checkbox" name="fav-music" value="classic">Classic <br>
+            <input type="checkbox" name="fav-music" value="jazz">Jazz <br>
+            <input type="checkbox" name="fav-music" value="blues">Blues <br>
+            <input type="checkbox" name="fav-music" value="instrumental">Instrumental <br>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Your Message:</legend>
+          <div>
+          <label for="how-did-you-hear-about-us?">How did you hear about us?</label>
+          <select name="how-did-you-hear-about-us?" id="how-did-you-hear-about-us?">
+            <option value="our website">Our Website</option>
+            <option value="friends">Friends</option>
+            <option value="tv adv">Tv Adv</option>
+            <option value="other">Other</option>
+          </select> 
+          </div> <br>
+          <div>
+            Would you recommend us to your friends? <br>
+            <input type="radio" name="recommend" checked="checked" value="yes">Yes
+            <input type="radio" name="recommend" value="no">No
+            <input type="radio" name="recommend" value="maybe">Maybe
+          </div> <br>
+          <div>
+            Your Request: <br>
+            <textarea name="yourrequest" id="yourrequest" cols="30" rows="10"></textarea>
+          </div> <br>
+          <div>
+            <input type="checkbox" checked> Sign up for email updates
+          </div> <br>
+          <div>
+            <input type="submit" value="Submit">
+          </div>
+        </fieldset>
+      </form>
+   </div> <br>
+   <div>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11543.481295101634!2d-79.3897222!3d43.6716667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4326f2e10e3c594f!2sFour%20Seasons%20Hotel%20Toronto!5e0!3m2!1sen!2sca!4v1597343394825!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+   </div>
+ </main>
+    <hr>
+ <footer>
+     <p>
+        Copyright © 2019 Canadian Business College - HTML major assignment - created by: Your Full Name - All rights
+        reserved
+     </p>
+ </footer>
+ </div>
+</body>
+</html>
